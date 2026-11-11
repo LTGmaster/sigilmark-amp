@@ -1,0 +1,4 @@
+Sigilmark logo assets (sigil.svg, sigil_simple.svg, wordmark*.svg/png, sigil_*.png, sigilmark.ico, preview.png)
+Self-made: hand-authored SVG geometry, no third-party artwork. Released by the author under CC0 1.0 (public domain dedication) / own work.
+
+Font: the "SIGILMARK" lettering is Cinzel (Natanael Gama), converted to outlines. Cinzel is licensed under the SIL Open Font License 1.1 (see OFL-Cinzel.txt). Outlined text is permitted under the OFL; the font itself is not sold or renamed here.

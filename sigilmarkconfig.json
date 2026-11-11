@@ -1,0 +1,49 @@
+[
+    {
+        "DisplayName": "Server Name",
+        "Category": "Sigilmark:sports_esports",
+        "Subcategory": "Server:dns:1",
+        "Description": "Name shown in the lobby list / Naam in de lobbylijst",
+        "Keywords": "server,name",
+        "FieldName": "ServerName",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "ServerName",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "Sigilmark",
+        "Placeholder": "Sigilmark",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Max Lobbies",
+        "Category": "Sigilmark:sports_esports",
+        "Subcategory": "Server:dns:1",
+        "Description": "Maximum number of games at once (each lobby is its own process, ~320 MB RAM) / Max aantal spellen tegelijk",
+        "Keywords": "lobbies,max",
+        "FieldName": "MaxLobbies",
+        "InputType": "number",
+        "MinValue": "1",
+        "MaxValue": "64",
+        "IsFlagArgument": false,
+        "ParamFieldName": "MaxLobbies",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "8",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Max Players per Lobby",
+        "Category": "Sigilmark:sports_esports",
+        "Subcategory": "Server:dns:1",
+        "Description": "2 to 8 / 2 tot 8",
+        "Keywords": "players,max",
+        "FieldName": "MaxPlayers",
+        "InputType": "number",
+        "MinValue": "2",
+        "MaxValue": "8",
+        "IsFlagArgument": false,
+        "ParamFieldName": "MaxPlayers",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "4",
+        "EnumValues": {}
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "UpdateStageName": "Sigilmark Server Download",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSourceArch": "x86_64",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://github.com/LTGmaster/kolonie-releases/releases/latest/download/SigilmarkServer-linux-x86_64.zip",
+        "UpdateSourceArgs": "SigilmarkServer-linux-x86_64.zip",
+        "UpdateSourceTarget": "{{$FullBaseDir}}",
+        "UnzipUpdateSource": true,
+        "DeleteAfterExtract": true,
+        "OverwriteExistingFiles": true,
+        "SkipOnFailure": false
+    },
+    {
+        "UpdateStageName": "Set Executable Flag",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "SetExecutableFlag",
+        "UpdateSourceArgs": "{{$FullBaseDir}}SigilmarkServer/SigilmarkServer.x86_64",
+        "SkipOnFailure": false
+    }
+]
